@@ -9,21 +9,35 @@
 /* Begin PBXBuildFile section */
 		406C3D0527AFB5FD00EDBA72 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406C3D0427AFB5FD00EDBA72 /* AppDelegate.swift */; };
 		406C3D0727AFB5FD00EDBA72 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406C3D0627AFB5FD00EDBA72 /* SceneDelegate.swift */; };
-		406C3D0927AFB5FD00EDBA72 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406C3D0827AFB5FD00EDBA72 /* ViewController.swift */; };
+		406C3D0927AFB5FD00EDBA72 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406C3D0827AFB5FD00EDBA72 /* SearchViewController.swift */; };
 		406C3D0C27AFB5FD00EDBA72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 406C3D0A27AFB5FD00EDBA72 /* Main.storyboard */; };
 		406C3D0E27AFB5FF00EDBA72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 406C3D0D27AFB5FF00EDBA72 /* Assets.xcassets */; };
 		406C3D1127AFB5FF00EDBA72 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 406C3D0F27AFB5FF00EDBA72 /* LaunchScreen.storyboard */; };
+		406C3D1B27AFC1D100EDBA72 /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406C3D1A27AFC1D100EDBA72 /* ResultsViewController.swift */; };
+		406C3D1D27AFC3B200EDBA72 /* Drink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406C3D1C27AFC3B200EDBA72 /* Drink.swift */; };
+		40E0F1D027B00492000695E7 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E0F1CF27B00492000695E7 /* NetworkManager.swift */; };
+		40E0F1D627B01047000695E7 /* DrinkCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E0F1D527B01047000695E7 /* DrinkCell.swift */; };
+		40E0F1DA27B03875000695E7 /* DrinkDescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E0F1D927B03875000695E7 /* DrinkDescriptionViewController.swift */; };
+		40E0F1DC27B04F11000695E7 /* DrinkImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E0F1DB27B04F11000695E7 /* DrinkImageCell.swift */; };
+		40E0F1DE27B04F7B000695E7 /* DrinkImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40E0F1DD27B04F7B000695E7 /* DrinkImageCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		406C3D0127AFB5FC00EDBA72 /* CocktailApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CocktailApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		406C3D0427AFB5FD00EDBA72 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		406C3D0627AFB5FD00EDBA72 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		406C3D0827AFB5FD00EDBA72 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		406C3D0827AFB5FD00EDBA72 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		406C3D0B27AFB5FD00EDBA72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		406C3D0D27AFB5FF00EDBA72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		406C3D1027AFB5FF00EDBA72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		406C3D1227AFB5FF00EDBA72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		406C3D1A27AFC1D100EDBA72 /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
+		406C3D1C27AFC3B200EDBA72 /* Drink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drink.swift; sourceTree = "<group>"; };
+		40E0F1CF27B00492000695E7 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		40E0F1D527B01047000695E7 /* DrinkCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkCell.swift; sourceTree = "<group>"; };
+		40E0F1D927B03875000695E7 /* DrinkDescriptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkDescriptionViewController.swift; sourceTree = "<group>"; };
+		40E0F1DB27B04F11000695E7 /* DrinkImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkImageCell.swift; sourceTree = "<group>"; };
+		40E0F1DD27B04F7B000695E7 /* DrinkImageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DrinkImageCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +70,46 @@
 		406C3D0327AFB5FC00EDBA72 /* CocktailApp */ = {
 			isa = PBXGroup;
 			children = (
+				406C3D1F27AFCDD300EDBA72 /* Model */,
+				406C3D1E27AFCDC100EDBA72 /* ViewControllers */,
+				40E0F1CE27AFD2E8000695E7 /* Storyboards */,
+				406C3D0D27AFB5FF00EDBA72 /* Assets.xcassets */,
+				406C3D1227AFB5FF00EDBA72 /* Info.plist */,
 				406C3D0427AFB5FD00EDBA72 /* AppDelegate.swift */,
 				406C3D0627AFB5FD00EDBA72 /* SceneDelegate.swift */,
-				406C3D0827AFB5FD00EDBA72 /* ViewController.swift */,
-				406C3D0A27AFB5FD00EDBA72 /* Main.storyboard */,
-				406C3D0D27AFB5FF00EDBA72 /* Assets.xcassets */,
-				406C3D0F27AFB5FF00EDBA72 /* LaunchScreen.storyboard */,
-				406C3D1227AFB5FF00EDBA72 /* Info.plist */,
+				40E0F1CF27B00492000695E7 /* NetworkManager.swift */,
 			);
 			path = CocktailApp;
+			sourceTree = "<group>";
+		};
+		406C3D1E27AFCDC100EDBA72 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				406C3D0827AFB5FD00EDBA72 /* SearchViewController.swift */,
+				406C3D1A27AFC1D100EDBA72 /* ResultsViewController.swift */,
+				40E0F1D527B01047000695E7 /* DrinkCell.swift */,
+				40E0F1DB27B04F11000695E7 /* DrinkImageCell.swift */,
+				40E0F1DD27B04F7B000695E7 /* DrinkImageCell.xib */,
+				40E0F1D927B03875000695E7 /* DrinkDescriptionViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		406C3D1F27AFCDD300EDBA72 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				406C3D1C27AFC3B200EDBA72 /* Drink.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		40E0F1CE27AFD2E8000695E7 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				406C3D0A27AFB5FD00EDBA72 /* Main.storyboard */,
+				406C3D0F27AFB5FF00EDBA72 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +172,7 @@
 			files = (
 				406C3D1127AFB5FF00EDBA72 /* LaunchScreen.storyboard in Resources */,
 				406C3D0E27AFB5FF00EDBA72 /* Assets.xcassets in Resources */,
+				40E0F1DE27B04F7B000695E7 /* DrinkImageCell.xib in Resources */,
 				406C3D0C27AFB5FD00EDBA72 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,9 +184,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				406C3D0927AFB5FD00EDBA72 /* ViewController.swift in Sources */,
+				40E0F1D027B00492000695E7 /* NetworkManager.swift in Sources */,
+				406C3D0927AFB5FD00EDBA72 /* SearchViewController.swift in Sources */,
+				40E0F1DA27B03875000695E7 /* DrinkDescriptionViewController.swift in Sources */,
+				40E0F1D627B01047000695E7 /* DrinkCell.swift in Sources */,
 				406C3D0527AFB5FD00EDBA72 /* AppDelegate.swift in Sources */,
 				406C3D0727AFB5FD00EDBA72 /* SceneDelegate.swift in Sources */,
+				406C3D1D27AFC3B200EDBA72 /* Drink.swift in Sources */,
+				40E0F1DC27B04F11000695E7 /* DrinkImageCell.swift in Sources */,
+				406C3D1B27AFC1D100EDBA72 /* ResultsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,8 +347,10 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -306,7 +360,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -323,8 +377,10 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -334,7 +390,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
